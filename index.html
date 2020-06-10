@@ -4,15 +4,15 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--This responsive meta tag ensures things scale correctly across device-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Jessica Blankemeier</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!--  CSS stylesheet -->
-  <link rel="stylesheet" href="assets/style.css">
 
-  <title>Jessica Blankemeier</title>
 </head>
 
 <body>
@@ -22,8 +22,10 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Jessica Blankemeier</a>
       </div>
+      <!-- Aligned Navigation Bar to the right-->
       <ul class="nav navbar-nav navbar-right">
         <li class="nav-item active">
+          <!-- The current page will be a unique color -->
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -35,33 +37,33 @@
       </ul>
     </div>
   </nav>
+  <!--Main Body goes in Container-->
   <!-- About Me Header Row -->
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
-        <div class="page-header">
-          <h1>About Me</h1>
-        </div>
-  <!-- Picture -->
-        <div class="row">
-          <div class="col-md-3">
-            <img src="assets/pictures/profile-photo.jpg" 
-            alt="profile photo"
-            class="img-thumbnail">
-          </div>
-  <!-- Text -->
-          <div class="col-md-9">
-              <p>Hello! I am a UCSD coding bootcamp student for the summer of 2020.
-                Thank you for coming to visit my first CSS Bootstrap site!
-                I live in Vista, California. I've spent the last decade teaching yoga and working in San Diego's craft beer scene. 
-                I have experience as a brewery tour guide, administrative assistant, and beertender. 
-                I am excited for the challenge and creativity that comes with software development.
-               </p>
-            </div>
-          </div>
-        </div>
+      <div class="col-lg-12">
+            <h1>About Me</h1>
       </div>
     </div>
+  </div>
+  <!-- Picture in a new container/row to center with "About Me Container" -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="assets/pictures/profile-photo.jpg" alt="profile photo" class="img-thumbnail">
+      </div>
+      <div class="col-lg-6">
+        <p>Hello! I am a UCSD coding bootcamp student for the summer of 2020.
+          Thank you for coming to visit my first CSS Bootstrap site!
+          I live in Vista, California. I've spent the last decade teaching yoga and working in San Diego's craft
+          beer scene.
+          I have experience as a brewery tour guide, administrative assistant, and beertender.
+          I am excited for the challenge and creativity that comes with software development.
+        </p>
+      </div>
+    </div>
+  </div>
+
 
 
   <!-- Optional JavaScript. Keeping this here if we add Javascript later -->
