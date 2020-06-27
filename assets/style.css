@@ -1,1 +1,39 @@
-/*I was able to complete my requirements with CSS Bootstrap*/
+body {
+    /* Typography */
+    font-family: 'Lora', serif;
+  
+    /* Visual */
+    background-image: url(../assets/pictures/full-bloom.png)
+  }
+  
+html {
+    /* Positioning */
+    position: relative;
+  
+    /* Box-model */
+    min-height: 100%;
+  }
+
+
+.block {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px;
+  font-size: large;
+}
+
+.block-header {
+  /* Typography */
+  color: #1b1c35;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #043a37;;
+}
+
+.about-me-header {
+    /* Positioning */
+    margin-bottom: 33px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
