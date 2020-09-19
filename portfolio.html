@@ -18,8 +18,8 @@
 
 <body>
   <!-- Navigation Bar/Header -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="index.html">Jessica Blankemeier</a>
       </div>
@@ -34,37 +34,53 @@
       </ul>
     </div>
   </nav>
-  <!--Page Header Row-->
-  <div class="container">
+  <main class="container">
     <div class="row">
       <div class="col-lg-12">
         <h1 class="block-header">Portfolio</h1>
-        <section class="row block">
-          <div class="col-lg-12 col-md-9 col-sm-1 text-center">
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="assets/pictures/JessCat.png" alt="GitHub profile photo" class="img-thumbnail">
+        </div>
+        <div class="col-lg-9">
             <p>Here are some examples of my work so far. I've placed them in order from newest to oldest so you can see
-              my progress! <br>
-              You can also visit my github repo at <a
-                href="https://github.com/jessicablank">https://github.com/jessicablank</a>
+              my progress!
             </p>
           </div>
+        </div>
+      </div>
         </section>
-        <div class="card-deck">
-          <div class="card" style="width: 15rem;">
+     <!--Portfolio Cards-->
+     <div class="col-md">
+      <div class="card text-center">
+      <img class="card-img-top" src="assets\pictures\marvel-match.PNG" alt="marvel match">
+        <h4 class="card-title card-header">Marvel Match</h4>
+        <p class="card-text">My first group project! A fun matching game incorporating three different API's.</p>
+        <a href="https://jessicablank.github.io/marvel-match/" class="btn btn-primary">Deployed App: https://jessicablank.github.io/marvel-match/</a>
+        <br></br>
+        <a href="https://github.com/jessicablank/marvel-match" class="btn btn-success">Source Code: https://github.com/jessicablank/marvel-match </a>
+      </div>
+    </div>
+     <div class="col-md">
+      <div class="card text-center">
             <img class="card-img-top" src="assets\pictures\binge.PNG" alt="marvel match">
-            <div class="card-body text-center">
-              <h4 class="card-title">The Binge Guide</h4>
+              <h4 class="card-title card-header">The Binge Guide</h4>
               <p class="card-text">My second group project! Deployed on Heroku, this app allows you to search and save show binges.</p>
-              <a href="https://jmsj2.herokuapp.com/" class="btn btn-primary">Link to Deployed App</a>
-              <a href="https://github.com/Q118/jmsj" class="btn btn-success">Link to Github Repository</a>
-            </div>
+              <a href="https://jmsj2.herokuapp.com/" class="btn btn-primary"> Deployed App: https://jmsj2.herokuapp.com/</a>
+              <br></br>
+              <a href="https://github.com/Q118/jmsj" class="btn btn-success"> Source Code: https://github.com/Q118/jmsj</a>
           </div>
-          <div class="card" style="width: 15rem;">
+          </div>
+          <div class="col-md">
+            <div class="card text-center">
             <img class="card-img-top" src="assets\pictures\marvel-match.PNG" alt="marvel match">
-            <div class="card-body text-center">
-              <h4 class="card-title">Marvel Match</h4>
+              <h4 class="card-title card-header">Marvel Match</h4>
               <p class="card-text">My first group project! A fun matching game incorporating three different API's.</p>
-              <a href="https://jessicablank.github.io/marvel-match/" class="btn btn-primary">Link to Deployed App</a>
-              <a href="https://github.com/jessicablank/marvel-match" class="btn btn-success">Link to Github Repository</a>
+              <a href="https://jessicablank.github.io/marvel-match/" class="btn btn-primary">Deployed App: https://jessicablank.github.io/marvel-match/</a>
+              <br></br>
+              <a href="https://github.com/jessicablank/marvel-match" class="btn btn-success">Source Code: https://github.com/jessicablank/marvel-match </a>
             </div>
           </div>
           <div class="card" style="width: 15rem;">
@@ -95,19 +111,14 @@
             </div>
           </div>
         </div>
-      </div>
+     
     </div>
-  </div>
+    </main>
 
 
 
-  <footer class="footer">
-    <div class="two-toned-footer-color"></div>
-    <p class="text-muted text-muted-footer text-center">
-      <a href="https://www.toptal.com/designers/subtlepatterns/">Shout out to subtle patterns for this pretty
-        background pattern</a>
-    </p>
-  </footer>
+
+ 
 </body>
 
 </html>
