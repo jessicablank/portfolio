@@ -1,10 +1,11 @@
 # My Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub](https://img.shields.io/github/followers/jessicablank?label=follow&style=social)
+
 ## Description:  
  
-Hello! Thank you for taking time to visit my portfolio page. This was initially created when I started a full-time coding bootcamp program through UCSD extension. 
+Hello 👋 Thank you for visiting my portfolio page. 
 
-    
 ## Table of Contents:
 * [Installation](#installation-instructions)
 * [Usage](#usage)
@@ -12,7 +13,7 @@ Hello! Thank you for taking time to visit my portfolio page. This was initially 
 * [License](#license-info)
 
 ## Installation Instructions
-Fork and Go! Ready to run in VS Code. No node.js dependencies. 
+Fork and Go! Ready to run in VS Code. No dependencies.  
 
 ## Usage
 Use this template to create your own portfolio page if you would like!

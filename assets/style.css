@@ -9,6 +9,12 @@ body {
     
   }
   
+  h5, p{
+    color: #5D26C1;
+  }
+
+
+
 html {
     /* Positioning */
     position: relative;
@@ -44,3 +50,12 @@ html {
 }
 
 
+#card-styling{
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#card-styling:hover{
+  transform: scale(1.1);
+}
