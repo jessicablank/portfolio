@@ -24,6 +24,10 @@ P {
   color: black;
 }
 
+h6 {
+  color: #fff;
+  font-size: 1.25rem;
+}
 html {
   /* Positioning */
   position: relative;
@@ -32,6 +36,17 @@ html {
   min-height: 100%;
 }
 
+#image-thumbnail {
+  margin: 0.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.align-left{
+  text-align: left;
+}
 .tag {
   background-color: #fff;
   padding: 1rem;
