@@ -4,7 +4,7 @@
 
 ## Description:  
  
-Hello 👋 Thank you for visiting my portfolio page. The site is live on GitHub pages: [jessicablank.github.io/portfolio/](jessicablank.github.io/portfolio/)
+Hello 👋 Thank you for visiting my portfolio page. The site is live on GitHub pages: [https://jessicablank.github.io/portfolio/index.html](https://jessicablank.github.io/portfolio/index.html)
 
 ## Table of Contents:
 * [Local Installation](#local-installation)
