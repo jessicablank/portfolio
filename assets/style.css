@@ -13,7 +13,10 @@ body {
 }
 
 .info-box{
-   /* Typography */
+  /* size */
+  padding: 1rem;
+  
+  /* Typography */
    font-family: "Lora", serif;
    color: #fff;
    /* Visual */
