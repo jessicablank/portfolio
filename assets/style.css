@@ -2,21 +2,34 @@
 body {
   /* Typography */
   font-family: "Lora", serif;
-  color: #fff;
+  color: #210555;
+  background-image: url("pictures/starpattern.png");
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  background-repeat: repeat; 
   /* Visual */
-  background: #5d26c1; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #5d26c1,
-    #a17fe0
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #5d26c1,
-    #a17fe0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.info-box{
+   /* Typography */
+   font-family: "Lora", serif;
+   color: #fff;
+   /* Visual */
+   background: #5d26c1; /* fallback for old browsers */
+   background: -webkit-linear-gradient(
+     to left,
+     #5d26c1,
+     #a17fe0
+   ); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(
+     to left,
+     #5d26c1,
+     #a17fe0
+   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 h5 {
   color: #5d26c1;
 }
@@ -61,7 +74,7 @@ html {
 } */
 
 .block-header {
-  background-color: #5d26c1;
+  background-color: #321869;
   color: #fff;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -80,4 +93,5 @@ html {
 #card-styling:hover {
   transform: scale(1.1);
 }
+
 
