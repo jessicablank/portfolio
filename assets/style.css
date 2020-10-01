@@ -1,11 +1,9 @@
 /* ---Global Styling Start--- */
 body {
   /* Typography */
-  font-family: "Lora", serif;
-  color: #210555;
   background-image: url("pictures/smoke.png");
   background-size: cover;
-  height: 500px;
+  /* height: 500px; */
   background-position: center;
   background-repeat: repeat; 
   /* Visual */
@@ -17,7 +15,7 @@ body {
   padding: 1rem;
   
   /* Typography */
-   font-family: "Lora", serif;
+   font-family: Arial, Helvetica, sans-serif;
    color: #fff;
    /* Visual */
    background: #5d26c1; /* fallback for old browsers */
@@ -39,6 +37,7 @@ h5 {
 
 P {
   color: black;
+  font-size: 1rem;
 }
 
 h6 {
