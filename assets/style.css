@@ -52,9 +52,7 @@ html {
   min-height: 100%;
 }
 
-#image-thumbnail {
-  margin: 0.5rem;
-}
+
 
 .bold {
   font-weight: bold;
@@ -64,16 +62,6 @@ html {
   text-align: left;
 }
 
-/* ---Text Blocks Start--- */
-/* saving for making blocks of text white background with black font
-.block {
-  background-color: #fff;
-  color: black;
-  padding: 30px;
-  margin-bottom: 30px;
-  border: 1px;
-  font-size: large;
-} */
 
 .block-header {
   background-color: #321869;
@@ -86,13 +74,13 @@ html {
 
 /* ---Card Styling Start--- */
 
-#card-styling {
+.card-styling {
   transition: transform 0.2s; /* Animation */
   margin: 0 auto;
   overflow: hidden;
 }
 
-#card-styling:hover {
+.card-styling:hover {
   transform: scale(1.1);
 }
 
