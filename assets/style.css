@@ -5,31 +5,30 @@ body {
   background-size: cover;
   /* height: 500px; */
   background-position: center;
-  background-repeat: repeat; 
+  background-repeat: repeat;
   /* Visual */
- /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.info-box{
+.info-box {
   /* size */
   padding: 1rem;
-  
-  /* Typography */
-   font-family: Arial, Helvetica, sans-serif;
-   color: #fff;
-   /* Visual */
-   background: #5d26c1; /* fallback for old browsers */
-   background: -webkit-linear-gradient(
-     to left,
-     #5d26c1,
-     #a17fe0
-   ); /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(
-     to left,
-     #5d26c1,
-     #a17fe0
-   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  /* Typography */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  /* Visual */
+  background: #5d26c1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #5d26c1,
+    #a17fe0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #5d26c1,
+    #a17fe0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h5 {
   color: #5d26c1;
@@ -52,16 +51,13 @@ html {
   min-height: 100%;
 }
 
-
-
 .bold {
   font-weight: bold;
 }
 
-.align-left{
+.align-left {
   text-align: left;
 }
-
 
 .block-header {
   background-color: #321869;
@@ -74,13 +70,32 @@ html {
 
 /* ---Card Styling Start--- */
 
-.card-styling {
-  transition: transform 0.2s; /* Animation */
-  margin: 0 auto;
+.card-img-top {
+  position: relative;
   overflow: hidden;
 }
 
-.card-styling:hover {
-  transform: scale(1.1);
+.card-img-top img {
+  transition: transform 0.2s; /* Animation */
 }
 
+.card-img-top img:hover {
+  transform: scale(1.25);
+}
+
+.card-img-top .card-img-banner {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-img-top .card-banner h5 {
+  padding: 6px;
+  margin: 1px;
+  font-weight: bold;
+}
