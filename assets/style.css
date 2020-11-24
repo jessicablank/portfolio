@@ -30,7 +30,8 @@ body {
     #a17fe0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-h5 {
+
+h5{
   color: #5d26c1;
 }
 
@@ -43,6 +44,7 @@ h6 {
   color: #fff;
   font-size: 1.25rem;
 }
+
 html {
   /* Positioning */
   position: relative;
@@ -87,15 +89,11 @@ html {
   position: absolute;
   bottom: 20%;
   width: 100%;
-  background-color: #fff;
+  background-color: #a17fe0;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
-.card-img-top .card-banner h5 {
-  padding: 6px;
-  margin: 1px;
-  font-weight: bold;
-}
