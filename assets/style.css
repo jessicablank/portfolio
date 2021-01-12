@@ -10,6 +10,14 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+html {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  min-height: 100%;
+}
+
 .info-box {
   /* size */
   padding: 1rem;
@@ -45,12 +53,8 @@ h6 {
   font-size: 1.25rem;
 }
 
-html {
-  /* Positioning */
-  position: relative;
-
-  /* Box-model */
-  min-height: 100%;
+a {
+  color: #fff;
 }
 
 .bold {
