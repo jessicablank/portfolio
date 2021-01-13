@@ -29,11 +29,13 @@ html {
   background: #5d26c1; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     #5d26c1,
-    #a17fe0
+    #a17fe0,
+    #fff
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     #5d26c1,
-    #a17fe0
+    #a17fe0,
+    #fff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
