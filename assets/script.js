@@ -1,15 +1,15 @@
 function copyToClipboard(text, el) {
-    var copyTest = document.queryCommandSupported('copy');
-    var elOriginalText = el.attr('data-original-title');
+    let copyTest = document.queryCommandSupported('copy');
+    let elOriginalText = el.attr('data-original-title');
   
     if (copyTest === true) {
-      var copyTextArea = document.createElement("textarea");
+      let copyTextArea = document.createElement("textarea");
       copyTextArea.value = text;
       document.body.appendChild(copyTextArea);
       copyTextArea.select();
       try {
-        var successful = document.execCommand('copy');
-        var msg = successful ? 'Copied!' : 'Whoops, not copied!';
+        let successful = document.execCommand('copy');
+        let msg = successful ? 'Copied!' : 'Whoops, not copied!';
         el.attr('data-original-title', msg).tooltip('show');
       } catch (err) {
         console.log('Oops, unable to copy');
@@ -22,6 +22,7 @@ function copyToClipboard(text, el) {
     }
   }
    
+//Activate tool tips
 $(document).ready(function(){
     $('.js-tooltip').tooltip();
   
@@ -29,10 +30,22 @@ $(document).ready(function(){
     // Grab any text in the attribute 'data-copy' and pass it to the 
     // copy function
     $('.js-copy').click(function() {
-      var text = $(this).attr('data-copy');
-      var el = $(this);
+      let text = $(this).attr('data-copy');
+      let el = $(this);
       copyToClipboard(text, el);
     });
   });
   
-  
+  //Support Sticky Nav: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky
+  window.onscroll = function() {myFunction()};
+
+let navbar = document.getElementById("navbar");
+let sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky-nav")
+  } else {
+    navbar.classList.remove("sticky-nav");
+  }
+}
